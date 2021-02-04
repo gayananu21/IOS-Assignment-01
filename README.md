@@ -1,6 +1,13 @@
 <h1> IOS-Assignment-01 </h1>
 
-<h3>Description:<p>hellow</p></h3>
+<h3>Description:</h3><br>
+<p>This UI design is compatible with every IOS screen. </p>
+<ul>
+  <li>Iphone</li>
+  <li>Ipad</li>
+  <li>Ipod Touch</li>
+</ul>
+
 <p align="left"><h3> <u>Preview WinWin Calculator</u></h3> </p><br>
 <img src="https://user-images.githubusercontent.com/77487432/106850349-5c289800-66da-11eb-9666-a9962c71b198.gif"  alt="Landscape View" width="250"><br>
 <p align="left"> <h3> Login Screen of WinWIn Calculator</h3>  </p><br>
