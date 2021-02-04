@@ -1,6 +1,4 @@
 # IOS-Assignment-01
-# PLEX UI DESIGN
-
 
 <p align="left"><b>||</b> Login Screen of WinWIn Calculator  </p><br>
 <img src="https://user-images.githubusercontent.com/77487432/106848977-f3d8b700-66d7-11eb-9aef-d1687fcebd6a.PNG"  alt="Portrait View" width="250">
