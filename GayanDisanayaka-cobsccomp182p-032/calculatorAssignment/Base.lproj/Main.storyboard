@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xQT-zd-Rrr">
+    <device id="retina4_0" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4X7-ps-ANR">
+            <objects>
+                <viewController id="xQT-zd-Rrr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zph-j5-PiY">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="qRQ-0U-4eO">
+                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fFh-48-my2">
+                                        <rect key="frame" x="0.0" y="0.0" width="568" height="53.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1g-ba-rpU">
+                                                <rect key="frame" x="0.0" y="0.0" width="568" height="53.5"/>
+                                                <color key="backgroundColor" red="0.25888324873096447" green="0.25888324873096447" blue="0.25888324873096447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="PingFangHK-Light" family="PingFang HK" pointSize="42"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="U1g-ba-rpU" firstAttribute="width" secondItem="fFh-48-my2" secondAttribute="width" id="J8w-h5-8XZ"/>
+                                            <constraint firstItem="U1g-ba-rpU" firstAttribute="top" secondItem="fFh-48-my2" secondAttribute="top" id="Kfv-KB-enN"/>
+                                            <constraint firstItem="U1g-ba-rpU" firstAttribute="leading" secondItem="fFh-48-my2" secondAttribute="leading" id="U55-gN-sJo"/>
+                                            <constraint firstAttribute="trailing" secondItem="U1g-ba-rpU" secondAttribute="trailing" id="WRq-4v-wZP"/>
+                                            <constraint firstAttribute="bottom" secondItem="U1g-ba-rpU" secondAttribute="bottom" id="eRK-8Y-wYL"/>
+                                            <constraint firstItem="U1g-ba-rpU" firstAttribute="height" secondItem="fFh-48-my2" secondAttribute="height" id="pQF-ME-oIf"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="laG-fI-yib">
+                                        <rect key="frame" x="0.0" y="53.5" width="568" height="53"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Url-hv-ubm" customClass="RoundButton" customModule="calculatorAssignment" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="142" height="53"/>
+                                                <color key="backgroundColor" red="0.30554013324873097" green="0.30554013324873097" blue="0.30554013324873097" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                                <state key="normal" title="AC">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.60027825342465757" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZbW-33-yLf" customClass="RoundButton" customModule="calculatorAssignment" customModuleProvider="target">
+                                                <rect key="frame" x="142" y="0.0" width="142" height="53"/>
+                                                <color key="backgroundColor" red="0.30554013324873097" green="0.30554013324873097" blue="0.30554013324873097" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                                <state key="normal" title="+/-">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.60027825342465757" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYY-Ea-fGN" customClass="RoundButton" customModule="calculatorAssignment" customModuleProvider="target">
+                                                <rect key="frame" x="284" y="0.0" width="142" height="53"/>
+                                                <color key="backgroundColor" red="0.30554013324873097" green="0.30554013324873097" blue="0.30554013324873097" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                                <state key="normal" title="%">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.60027825342465757" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AhL-o7-Ceb" customClass="RoundButton" customModule="calculatorAssignment" customModuleProvider="target">
+                                                <rect key="frame" x="426" y="0.0" width="142" height="53"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                                <state key="normal" title=":-">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.60027825342465757" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="ZbW-33-yLf" firstAttribute="top" secondItem="laG-fI-yib" secondAttribute="top" id="6Ub-g4-ffc"/>
+                                            <constraint firstItem="NYY-Ea-fGN" firstAttribute="top" secondItem="laG-fI-yib" secondAttribute="top" id="9jO-hE-6O1"/>
+                                            <constraint firstAttribute="bottom" secondItem="ZbW-33-yLf" secondAttribute="bottom" id="9qe-8N-FVR"/>
+                                            <constraint firstItem="ZbW-33-yLf" firstAttribute="height" secondItem="Url-hv-ubm" secondAttribute="height" id="CBo-6k-hSv"/>
+                                            <constraint firstItem="AhL-o7-Ceb" firstAttribute="leading" secondItem="NYY-Ea-fGN" secondAttribute="trailing" id="GtV-xJ-diF"/>
+                                            <constraint firstItem="Url-hv-ubm" firstAttribute="top" secondItem="laG-fI-yib" secondAttribute="top" id="Hce-eo-bug"/>
+                                            <constraint firstItem="AhL-o7-Ceb" firstAttribute="top" secondItem="laG-fI-yib" secondAttribute="top" id="Hei-iX-l4U"/>
+                                            <constraint firstItem="AhL-o7-Ceb" firstAttribute="width" secondItem="Url-hv-ubm" secondAttribute="width" id="NF1-XZ-SVP"/>
+                                            <constraint firstAttribute="bottom" secondItem="Url-hv-ubm" secondAttribute="bottom" id="NKD-ew-6U2"/>
+                                            <constraint firstItem="NYY-Ea-fGN" firstAttribute="height" secondItem="Url-hv-ubm" secondAttribute="height" id="Rpe-tW-I0t"/>
+                                            <constraint firstItem="Url-hv-ubm" firstAttribute="leading" secondItem="laG-fI-yib" secondAttribute="leading" id="Spw-5X-YEZ"/>
+                                            <constraint firstItem="ZbW-33-yLf" firstAttribute="width" secondItem="Url-hv-ubm" secondAttribute="width" id="Wz8-ZF-Cc2"/>
+                                            <constraint firstAttribute="trailing" secondItem="AhL-o7-Ceb" secondAttribute="trailing" id="anh-WH-2oQ"/>
+                                            <constraint firstAttribute="bottom" secondItem="NYY-Ea-fGN" secondAttribute="bottom" id="etV-Rd-kuW"/>
+                                            <constraint firstItem="ZbW-33-yLf" firstAttribute="leading" secondItem="Url-hv-ubm" secondAttribute="trailing" id="iNx-Vf-i1K"/>
+                                            <constraint firstItem="AhL-o7-Ceb" firstAttribute="height" secondItem="Url-hv-ubm" secondAttribute="height" id="irg-bU-slr"/>
+                                            <constraint firstAttribute="bottom" secondItem="AhL-o7-Ceb" secondAttribute="bottom" id="k3l-y1-g2P"/>
+                                            <constraint firstItem="NYY-Ea-fGN" firstAttribute="width" secondItem="Url-hv-ubm" secondAttribute="width" id="ra6-jv-VQZ"/>
+                                            <constraint firstItem="NYY-Ea-fGN" firstAttribute="leading" secondItem="ZbW-33-yLf" secondAttribute="trailing" id="zgH-PW-SpM"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T4j-ST-3CP">
+                                        <rect key="frame" x="0.0" y="106.5" width="568" height="53.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgs-5a-WvZ" customClass="RoundButton" customModule="calculatorAssignment" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="142" height="53.5"/>
+                                                <color key="backgroundColor" red="0.26412862539291382" green="0.68540525436401367" blue="0.96243792772293091" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                                <state key="normal" title="7">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.60027825342465757" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25B-ak-Spo" customClass="RoundButton" customModule="calculatorAssignment" customModuleProvider="target">
+                                                <rect key="frame" x="142" y="0.0" width="142" height="53.5"/>
+                                                <color key="backgroundColor" red="0.26412862539291382" green="0.68540525436401367" blue="0.96243792772293091" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                                <state key="normal" title="8">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.60027825342465757" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ZL-9x-orI" userLabel="Button 3" customClass="RoundButton" customModule="calculatorAssignment" customModuleProvider="target">
+                                                <rect key="frame" x="284" y="0.0" width="142" height="53.5"/>
+                                                <color key="backgroundColor" red="0.26412862539291382" green="0.68540525436401367" blue="0.96243792772293091" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                                <state key="normal" title="9">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.60027825342465757" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAv-sb-IOY" userLabel="Button 4" customClass="RoundButton" customModule="calculatorAssignment" customModuleProvider="target">
+                                                <rect key="frame" x="426" y="0.0" width="142" height="53.5"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                                <state key="normal" title="x">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.60027825342465757" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.86407232050000005" green="0.76725239700000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="wAv-sb-IOY" firstAttribute="height" secondItem="wgs-5a-WvZ" secondAttribute="height" id="01B-c5-3A5"/>
+                                            <constraint firstAttribute="bottom" secondItem="25B-ak-Spo" secondAttribute="bottom" id="2sh-cM-Xz6"/>
+                                            <constraint firstAttribute="bottom" secondItem="wAv-sb-IOY" secondAttribute="bottom" id="8f4-es-ylG"/>
+                                            <constraint firstItem="wgs-5a-WvZ" firstAttribute="top" secondItem="T4j-ST-3CP" secondAttribute="top" id="9e2-3P-hBP"/>
+                                            <constraint firstItem="wgs-5a-WvZ" firstAttribute="leading" secondItem="T4j-ST-3CP" secondAttribute="leading" id="DNX-Cg-tKy"/>
+                                            <constraint firstAttribute="bottom" secondItem="4ZL-9x-orI" secondAttribute="bottom" id="Fid-kQ-9nS"/>
+                                            <constraint firstAttribute="bottom" secondItem="wgs-5a-WvZ" secondAttribute="bottom" id="J57-Ce-zoj"/>
+                                            <constraint firstItem="25B-ak-Spo" firstAttribute="width" secondItem="wgs-5a-WvZ" secondAttribute="width" id="NxU-nu-oeV"/>
+                                            <constraint firstItem="4ZL-9x-orI" firstAttribute="height" secondItem="wgs-5a-WvZ" secondAttribute="height" id="Q6X-pC-45h"/>
+                                            <constraint firstAttribute="trailing" secondItem="wAv-sb-IOY" secondAttribute="trailing" id="QK9-Ek-mO3"/>
+                                            <constraint firstItem="wAv-sb-IOY" firstAttribute="top" secondItem="T4j-ST-3CP" secondAttribute="top" id="QT1-oi-s30"/>
+                                            <constraint firstItem="25B-ak-Spo" firstAttribute="height" secondItem="wgs-5a-WvZ" secondAttribute="height" id="S2M-i1-Sgv"/>
+                                            <constraint firstItem="4ZL-9x-orI" firstAttribute="width" secondItem="wgs-5a-WvZ" secondAttribute="width" id="ZXM-BS-9Ah"/>
+                                            <constraint firstItem="wAv-sb-IOY" firstAttribute="width" secondItem="wgs-5a-WvZ" secondAttribute="width" id="c35-eB-8vv"/>
+                                            <constraint firstItem="wAv-sb-IOY" firstAttribute="leading" secondItem="4ZL-9x-orI" secondAttribute="trailing" id="cDu-pK-iQz"/>
+                                            <constraint firstItem="4ZL-9x-orI" firstAttribute="top" secondItem="T4j-ST-3CP" secondAttribute="top" id="dEP-Hq-VZs"/>
+                                            <constraint firstItem="25B-ak-Spo" firstAttribute="top" secondItem="T4j-ST-3CP" secondAttribute="top" id="dZb-zT-dj2"/>
+                                            <constraint firstItem="4ZL-9x-orI" firstAttribute="leading" secondItem="25B-ak-Spo" secondAttribute="trailing" id="kfq-PU-YR1"/>
+                                            <constraint firstItem="25B-ak-Spo" firstAttribute="leading" secondItem="wgs-5a-WvZ" secondAttribute="trailing" id="m7F-sl-Her"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bsz-74-cjL">
+                                        <rect key="frame" x="0.0" y="160" width="568" height="53.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t2u-0r-GkD" customClass="RoundButton" customModule="calculatorAssignment" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="142" height="53.5"/>
+                                                <color key="backgroundColor" red="0.26412862539999998" green="0.6854052544" blue="0.96243792770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                                <state key="normal" title="4">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.60027825342465757" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50M-V8-VBl" userLabel="Button 3" customClass="RoundButton" customModule="calculatorAssignment" customModuleProvider="target">
+                                                <rect key="frame" x="284" y="0.0" width="142" height="53.5"/>
+                                                <color key="backgroundColor" red="0.26412862539999998" green="0.6854052544" blue="0.96243792770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                                <state key="normal" title="6">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.60027825342465757" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hiQ-Am-98s" userLabel="Button 4" customClass="RoundButton" customModule="calculatorAssignment" customModuleProvider="target">
+                                                <rect key="frame" x="426" y="0.0" width="142" height="53.5"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                                <state key="normal" title="-">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.60027825342465757" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUI-tT-6kZ" customClass="RoundButton" customModule="calculatorAssignment" customModuleProvider="target">
+                                                <rect key="frame" x="142" y="0.0" width="142" height="53.5"/>
+                                                <color key="backgroundColor" red="0.26412862539999998" green="0.6854052544" blue="0.96243792770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                                <state key="normal" title="5">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.60027825342465757" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="hiQ-Am-98s" secondAttribute="bottom" id="27a-FM-heK"/>
+                                            <constraint firstItem="hiQ-Am-98s" firstAttribute="leading" secondItem="50M-V8-VBl" secondAttribute="trailing" id="6fP-SH-Sww"/>
+                                            <constraint firstItem="t2u-0r-GkD" firstAttribute="top" secondItem="bsz-74-cjL" secondAttribute="top" id="7h9-Db-IYn"/>
+                                            <constraint firstItem="50M-V8-VBl" firstAttribute="width" secondItem="t2u-0r-GkD" secondAttribute="width" id="Bcf-Qc-Bdb"/>
+                                            <constraint firstItem="50M-V8-VBl" firstAttribute="height" secondItem="t2u-0r-GkD" secondAttribute="height" id="HBf-6V-DUC"/>
+                                            <constraint firstItem="50M-V8-VBl" firstAttribute="leading" secondItem="kUI-tT-6kZ" secondAttribute="trailing" id="HHq-eL-cUn"/>
+                                            <constraint firstItem="hiQ-Am-98s" firstAttribute="height" secondItem="t2u-0r-GkD" secondAttribute="height" id="I7I-re-f1g"/>
+                                            <constraint firstItem="t2u-0r-GkD" firstAttribute="leading" secondItem="bsz-74-cjL" secondAttribute="leading" id="Ipx-PM-ayc"/>
+                                            <constraint firstAttribute="trailing" secondItem="hiQ-Am-98s" secondAttribute="trailing" id="LtY-ex-CfE"/>
+                                            <constraint firstItem="50M-V8-VBl" firstAttribute="top" secondItem="bsz-74-cjL" secondAttribute="top" id="P0F-U8-6I2"/>
+                                            <constraint firstAttribute="bottom" secondItem="t2u-0r-GkD" secondAttribute="bottom" id="R9I-9H-Ynt"/>
+                                            <constraint firstAttribute="bottom" secondItem="50M-V8-VBl" secondAttribute="bottom" id="VDd-t2-Sdo"/>
+                                            <constraint firstItem="kUI-tT-6kZ" firstAttribute="width" secondItem="t2u-0r-GkD" secondAttribute="width" id="Xyg-SS-Quf"/>
+                                            <constraint firstItem="kUI-tT-6kZ" firstAttribute="width" secondItem="t2u-0r-GkD" secondAttribute="width" id="aiA-qH-FHz"/>
+                                            <constraint firstItem="50M-V8-VBl" firstAttribute="width" secondItem="t2u-0r-GkD" secondAttribute="width" id="c1q-sd-9fK"/>
+                                            <constraint firstAttribute="bottom" secondItem="kUI-tT-6kZ" secondAttribute="bottom" id="cyn-qD-HKE"/>
+                                            <constraint firstItem="hiQ-Am-98s" firstAttribute="leading" secondItem="50M-V8-VBl" secondAttribute="trailing" id="efe-Kg-zZU"/>
+                                            <constraint firstItem="hiQ-Am-98s" firstAttribute="width" secondItem="t2u-0r-GkD" secondAttribute="width" id="f3X-Pg-SgZ"/>
+                                            <constraint firstItem="hiQ-Am-98s" firstAttribute="height" secondItem="t2u-0r-GkD" secondAttribute="height" id="fII-DQ-KXZ"/>
+                                            <constraint firstItem="hiQ-Am-98s" firstAttribute="width" secondItem="t2u-0r-GkD" secondAttribute="width" id="h1v-7w-ToS"/>
+                                            <constraint firstItem="hiQ-Am-98s" firstAttribute="top" secondItem="bsz-74-cjL" secondAttribute="top" id="iOE-vB-ARn"/>
+                                            <constraint firstItem="kUI-tT-6kZ" firstAttribute="top" secondItem="bsz-74-cjL" secondAttribute="top" id="kYK-p2-WOt"/>
+                                            <constraint firstItem="50M-V8-VBl" firstAttribute="leading" secondItem="kUI-tT-6kZ" secondAttribute="trailing" id="nDY-UQ-oN6"/>
+                                            <constraint firstItem="kUI-tT-6kZ" firstAttribute="height" secondItem="t2u-0r-GkD" secondAttribute="height" id="nMu-Vd-4Pk"/>
+                                            <constraint firstItem="kUI-tT-6kZ" firstAttribute="leading" secondItem="t2u-0r-GkD" secondAttribute="trailing" id="r4V-xX-oaP"/>
+                                            <constraint firstItem="50M-V8-VBl" firstAttribute="height" secondItem="t2u-0r-GkD" secondAttribute="height" id="va3-KA-yqL"/>
+                                            <constraint firstItem="kUI-tT-6kZ" firstAttribute="height" secondItem="t2u-0r-GkD" secondAttribute="height" id="vur-JV-AwZ"/>
+                                            <constraint firstItem="kUI-tT-6kZ" firstAttribute="leading" secondItem="t2u-0r-GkD" secondAttribute="trailing" id="xbv-mI-nkh"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d7W-nB-QhZ">
+                                        <rect key="frame" x="0.0" y="213.5" width="568" height="53"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U01-wJ-4Mv" customClass="RoundButton" customModule="calculatorAssignment" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="142" height="53"/>
+                                                <color key="backgroundColor" red="0.26412862539999998" green="0.6854052544" blue="0.96243792770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.60027825342465757" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7kQ-sn-s9g" userLabel="Button 3" customClass="RoundButton" customModule="calculatorAssignment" customModuleProvider="target">
+                                                <rect key="frame" x="284" y="0.0" width="142" height="53"/>
+                                                <color key="backgroundColor" red="0.26412862539999998" green="0.6854052544" blue="0.96243792770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                                <state key="normal" title="3">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.60027825342465757" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4j-E1-2b7" userLabel="Button 4" customClass="RoundButton" customModule="calculatorAssignment" customModuleProvider="target">
+                                                <rect key="frame" x="426" y="0.0" width="142" height="53"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                                <state key="normal" title="+">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.60027825342465757" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dth-X0-dGR" customClass="RoundButton" customModule="calculatorAssignment" customModuleProvider="target">
+                                                <rect key="frame" x="142" y="0.0" width="142" height="53"/>
+                                                <color key="backgroundColor" red="0.26412862539999998" green="0.6854052544" blue="0.96243792770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                                <state key="normal" title="2">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.60027825342465757" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.86407232050000005" green="0.76725239700000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="7kQ-sn-s9g" secondAttribute="bottom" id="7Oy-5S-y20"/>
+                                            <constraint firstItem="dth-X0-dGR" firstAttribute="height" secondItem="U01-wJ-4Mv" secondAttribute="height" id="8UZ-Wx-IXc"/>
+                                            <constraint firstItem="U01-wJ-4Mv" firstAttribute="leading" secondItem="d7W-nB-QhZ" secondAttribute="leading" id="90d-MA-v7b"/>
+                                            <constraint firstItem="l4j-E1-2b7" firstAttribute="leading" secondItem="7kQ-sn-s9g" secondAttribute="trailing" id="9SF-Z6-4UZ"/>
+                                            <constraint firstItem="l4j-E1-2b7" firstAttribute="height" secondItem="U01-wJ-4Mv" secondAttribute="height" id="ASV-Or-vpU"/>
+                                            <constraint firstItem="dth-X0-dGR" firstAttribute="leading" secondItem="U01-wJ-4Mv" secondAttribute="trailing" id="F4x-VU-B67"/>
+                                            <constraint firstItem="7kQ-sn-s9g" firstAttribute="height" secondItem="U01-wJ-4Mv" secondAttribute="height" id="HPe-7e-wZF"/>
+                                            <constraint firstItem="dth-X0-dGR" firstAttribute="leading" secondItem="U01-wJ-4Mv" secondAttribute="trailing" id="HX9-L8-ZWu"/>
+                                            <constraint firstAttribute="bottom" secondItem="U01-wJ-4Mv" secondAttribute="bottom" id="IiJ-xq-arF"/>
+                                            <constraint firstItem="7kQ-sn-s9g" firstAttribute="leading" secondItem="dth-X0-dGR" secondAttribute="trailing" id="JDc-pb-arO"/>
+                                            <constraint firstItem="dth-X0-dGR" firstAttribute="height" secondItem="U01-wJ-4Mv" secondAttribute="height" id="LOj-RM-9ZO"/>
+                                            <constraint firstItem="dth-X0-dGR" firstAttribute="height" secondItem="U01-wJ-4Mv" secondAttribute="height" id="LbY-wH-E5z"/>
+                                            <constraint firstItem="l4j-E1-2b7" firstAttribute="width" secondItem="U01-wJ-4Mv" secondAttribute="width" id="LpB-Qh-AzW"/>
+                                            <constraint firstItem="dth-X0-dGR" firstAttribute="width" secondItem="U01-wJ-4Mv" secondAttribute="width" id="OVx-9Y-67F"/>
+                                            <constraint firstItem="l4j-E1-2b7" firstAttribute="width" secondItem="U01-wJ-4Mv" secondAttribute="width" id="PJ9-xy-hdN"/>
+                                            <constraint firstItem="dth-X0-dGR" firstAttribute="top" secondItem="d7W-nB-QhZ" secondAttribute="top" id="Sj9-LC-TSY"/>
+                                            <constraint firstItem="dth-X0-dGR" firstAttribute="width" secondItem="U01-wJ-4Mv" secondAttribute="width" id="Tfh-La-yI0"/>
+                                            <constraint firstItem="dth-X0-dGR" firstAttribute="leading" secondItem="U01-wJ-4Mv" secondAttribute="trailing" id="Wei-eC-Z4g"/>
+                                            <constraint firstAttribute="trailing" secondItem="l4j-E1-2b7" secondAttribute="trailing" id="Y6g-Qx-nCD"/>
+                                            <constraint firstAttribute="bottom" secondItem="dth-X0-dGR" secondAttribute="bottom" id="Z9U-UN-YlB"/>
+                                            <constraint firstItem="7kQ-sn-s9g" firstAttribute="width" secondItem="U01-wJ-4Mv" secondAttribute="width" id="ZRS-CR-Du8"/>
+                                            <constraint firstItem="7kQ-sn-s9g" firstAttribute="width" secondItem="U01-wJ-4Mv" secondAttribute="width" id="cH7-y2-FDx"/>
+                                            <constraint firstItem="7kQ-sn-s9g" firstAttribute="top" secondItem="d7W-nB-QhZ" secondAttribute="top" id="dbp-lt-Txx"/>
+                                            <constraint firstItem="dth-X0-dGR" firstAttribute="width" secondItem="U01-wJ-4Mv" secondAttribute="width" id="eP5-lG-lyS"/>
+                                            <constraint firstItem="7kQ-sn-s9g" firstAttribute="height" secondItem="U01-wJ-4Mv" secondAttribute="height" id="eSD-q0-iKl"/>
+                                            <constraint firstAttribute="bottom" secondItem="l4j-E1-2b7" secondAttribute="bottom" id="efw-Vk-Z4n"/>
+                                            <constraint firstItem="7kQ-sn-s9g" firstAttribute="width" secondItem="U01-wJ-4Mv" secondAttribute="width" id="ehg-NC-iEv"/>
+                                            <constraint firstItem="l4j-E1-2b7" firstAttribute="height" secondItem="U01-wJ-4Mv" secondAttribute="height" id="gMn-sz-6nC"/>
+                                            <constraint firstItem="7kQ-sn-s9g" firstAttribute="height" secondItem="U01-wJ-4Mv" secondAttribute="height" id="iHo-tI-IKf"/>
+                                            <constraint firstItem="l4j-E1-2b7" firstAttribute="top" secondItem="d7W-nB-QhZ" secondAttribute="top" id="nZ6-rs-7dk"/>
+                                            <constraint firstItem="l4j-E1-2b7" firstAttribute="leading" secondItem="7kQ-sn-s9g" secondAttribute="trailing" id="oCY-2C-9pq"/>
+                                            <constraint firstItem="l4j-E1-2b7" firstAttribute="width" secondItem="U01-wJ-4Mv" secondAttribute="width" id="omL-iR-Z8z"/>
+                                            <constraint firstItem="U01-wJ-4Mv" firstAttribute="top" secondItem="d7W-nB-QhZ" secondAttribute="top" id="pCA-Fb-HGh"/>
+                                            <constraint firstItem="7kQ-sn-s9g" firstAttribute="leading" secondItem="dth-X0-dGR" secondAttribute="trailing" id="seu-NU-kTs"/>
+                                            <constraint firstItem="7kQ-sn-s9g" firstAttribute="leading" secondItem="dth-X0-dGR" secondAttribute="trailing" id="uvn-TC-edg"/>
+                                            <constraint firstItem="l4j-E1-2b7" firstAttribute="height" secondItem="U01-wJ-4Mv" secondAttribute="height" id="zbU-pI-kcw"/>
+                                            <constraint firstItem="l4j-E1-2b7" firstAttribute="leading" secondItem="7kQ-sn-s9g" secondAttribute="trailing" id="zwD-2l-Vuu"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gMP-pw-cNs">
+                                        <rect key="frame" x="0.0" y="266.5" width="568" height="53.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PbT-qK-N5K" customClass="RoundButton" customModule="calculatorAssignment" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="284" height="53.5"/>
+                                                <color key="backgroundColor" red="0.26412862539999998" green="0.6854052544" blue="0.96243792770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.60027825342465757" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9F-AT-2IS" userLabel="Button 3" customClass="RoundButton" customModule="calculatorAssignment" customModuleProvider="target">
+                                                <rect key="frame" x="284" y="0.0" width="142" height="53.5"/>
+                                                <color key="backgroundColor" red="0.26412862539999998" green="0.6854052544" blue="0.96243792770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                                <state key="normal" title=".">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.60027825342465757" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T11-dk-erO" userLabel="Button 3" customClass="RoundButton" customModule="calculatorAssignment" customModuleProvider="target">
+                                                <rect key="frame" x="426" y="0.0" width="142" height="53.5"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="25"/>
+                                                <state key="normal" title="=">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.29999999999999999"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.60027825342465757" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="T11-dk-erO" secondAttribute="bottom" id="5Kr-Ur-VM7"/>
+                                            <constraint firstItem="T11-dk-erO" firstAttribute="top" secondItem="gMP-pw-cNs" secondAttribute="top" id="Cqi-1I-Gb3"/>
+                                            <constraint firstItem="PbT-qK-N5K" firstAttribute="top" secondItem="gMP-pw-cNs" secondAttribute="top" id="HX4-7L-eS1"/>
+                                            <constraint firstAttribute="bottom" secondItem="C9F-AT-2IS" secondAttribute="bottom" id="Iyl-ne-NUP"/>
+                                            <constraint firstItem="PbT-qK-N5K" firstAttribute="leading" secondItem="gMP-pw-cNs" secondAttribute="leading" id="LFi-8o-M64"/>
+                                            <constraint firstItem="T11-dk-erO" firstAttribute="leading" secondItem="C9F-AT-2IS" secondAttribute="trailing" id="YIK-3n-eDZ"/>
+                                            <constraint firstAttribute="bottom" secondItem="PbT-qK-N5K" secondAttribute="bottom" id="Ygb-N4-vR6"/>
+                                            <constraint firstItem="C9F-AT-2IS" firstAttribute="top" secondItem="gMP-pw-cNs" secondAttribute="top" id="fN0-Kc-IoG"/>
+                                            <constraint firstItem="C9F-AT-2IS" firstAttribute="leading" secondItem="PbT-qK-N5K" secondAttribute="trailing" id="gcu-in-CEh"/>
+                                            <constraint firstAttribute="trailing" secondItem="T11-dk-erO" secondAttribute="trailing" id="wqr-8d-jTB"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="gMP-pw-cNs" firstAttribute="height" secondItem="fFh-48-my2" secondAttribute="height" id="AD1-sV-IOj"/>
+                                    <constraint firstItem="l4j-E1-2b7" firstAttribute="width" secondItem="C9F-AT-2IS" secondAttribute="width" id="F5V-Se-bYh"/>
+                                    <constraint firstItem="d7W-nB-QhZ" firstAttribute="width" secondItem="fFh-48-my2" secondAttribute="width" id="G5H-fd-7O2"/>
+                                    <constraint firstItem="T4j-ST-3CP" firstAttribute="height" secondItem="fFh-48-my2" secondAttribute="height" id="OCz-NK-LgS"/>
+                                    <constraint firstItem="bsz-74-cjL" firstAttribute="width" secondItem="fFh-48-my2" secondAttribute="width" id="SMN-Lf-Zor"/>
+                                    <constraint firstItem="bsz-74-cjL" firstAttribute="height" secondItem="fFh-48-my2" secondAttribute="height" id="U6Y-JI-KeE"/>
+                                    <constraint firstItem="l4j-E1-2b7" firstAttribute="height" secondItem="T11-dk-erO" secondAttribute="height" id="ai2-cN-zIh"/>
+                                    <constraint firstItem="d7W-nB-QhZ" firstAttribute="height" secondItem="fFh-48-my2" secondAttribute="height" id="bFW-Vi-odp"/>
+                                    <constraint firstItem="l4j-E1-2b7" firstAttribute="height" secondItem="C9F-AT-2IS" secondAttribute="height" id="dRh-oh-Qkl"/>
+                                    <constraint firstItem="laG-fI-yib" firstAttribute="height" secondItem="fFh-48-my2" secondAttribute="height" id="eBx-Ly-UeV"/>
+                                    <constraint firstItem="gMP-pw-cNs" firstAttribute="width" secondItem="fFh-48-my2" secondAttribute="width" id="lKe-sf-U2H"/>
+                                    <constraint firstItem="laG-fI-yib" firstAttribute="width" secondItem="fFh-48-my2" secondAttribute="width" id="ocS-gq-GU3"/>
+                                    <constraint firstItem="T4j-ST-3CP" firstAttribute="width" secondItem="fFh-48-my2" secondAttribute="width" id="wNj-jV-p3j"/>
+                                    <constraint firstItem="l4j-E1-2b7" firstAttribute="width" secondItem="T11-dk-erO" secondAttribute="width" id="wQh-2k-8zb"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="qRQ-0U-4eO" firstAttribute="top" secondItem="zph-j5-PiY" secondAttribute="top" id="Jhf-tU-OiP"/>
+                            <constraint firstAttribute="bottom" secondItem="qRQ-0U-4eO" secondAttribute="bottom" id="Tc1-Uh-gjZ"/>
+                            <constraint firstItem="qRQ-0U-4eO" firstAttribute="trailing" secondItem="zph-j5-PiY" secondAttribute="trailing" id="USO-Ft-60W"/>
+                            <constraint firstItem="qRQ-0U-4eO" firstAttribute="leading" secondItem="zph-j5-PiY" secondAttribute="leading" id="WHV-ds-Apb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PEP-B7-YEf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5sP-kG-QCV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="62.318840579710148" y="737.94642857142856"/>
+        </scene>
+    </scenes>
+</document>
