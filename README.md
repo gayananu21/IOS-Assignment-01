@@ -1,4 +1,4 @@
-<h1>|| IOS-Assignment-01 ||</h1><br>
+<h1>~ IOS-Assignment-01 ~</h1><br>
 
 <h3>Description</h3><br>
 <p>This UI design is compatible with every IOS screen. </p>
@@ -6,7 +6,7 @@
   <li>Iphone</li>
   <li>Ipad</li>
   <li>Ipod Touch</li>
-</ul>
+</ul><br>
 
 <p align="left"><h3> <u>Preview</u></h3> </p><br>
 <img src="https://user-images.githubusercontent.com/77487432/106850349-5c289800-66da-11eb-9666-a9962c71b198.gif"  alt="Landscape View" width="250"><br>
