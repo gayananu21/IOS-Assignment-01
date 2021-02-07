@@ -1,8 +1,8 @@
 <h1>~ IOS-Assignment-01 ~</h1><br>
 
 <h3>Description</h3><br>
-<P> -Here I used XCODE 11.0 version.</p>
-<p>-This UI design is compatible with every IOS screen. </p>
+<P><b>-</b> Here I used XCODE 11.0 version.</p>
+<p><b>-</b> This UI design is compatible with every IOS screen. </p>
 <ul>
   <li>Iphone</li>
   <li>Ipad</li>
