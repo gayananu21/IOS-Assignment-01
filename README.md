@@ -11,8 +11,8 @@
 <p align="left"><h3> <u>Preview</u></h3> </p><br>
 <img src="https://user-images.githubusercontent.com/77487432/106850349-5c289800-66da-11eb-9666-a9962c71b198.gif"  alt="Landscape View" width="250"><br>
 <p align="left"> <h3> Launch Screen</h3>  </p><br>
-<img src="![Screen Shot 2021-04-30 at 9 03 26 PM](https://user-images.githubusercontent.com/77487432/116719284-85667500-a9f8-11eb-9377-160557e9d6d0.png)
-"  alt="Portrait View" width="250"><br>
+<img src="https://user-images.githubusercontent.com/77487432/116719284-85667500-a9f8-11eb-9377-160557e9d6d0.png"
+ alt="Portrait View" width="250"><br>
 <p align="left"> <u> <h3> Portrait View </h3></u> </p><br>
 <img src="https://user-images.githubusercontent.com/77487432/106848855-c1c75500-66d7-11eb-9f84-269599df647c.PNG"  alt="Landscape View" width="250"><br>
 <p align="left"> <u><h3>Landscape View </h3></u> </p><br>
